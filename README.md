@@ -1,37 +1,99 @@
-# skills
+# 中文版 AI 技能集合
 
-#### 介绍
-适用于中国人民的skills
+专为中文用户打造的 AI Agent 技能库，让 AI 更好地服务中国开发者。
 
-#### 软件架构
-软件架构说明
+## 技能列表
 
+### 常用办公
 
-#### 安装教程
+| 技能 | 说明 | 适用场景 |
+|------|------|----------|
+| `docx-zh` | Word 文档处理 | 创建、编辑、分析 .docx 文件 |
+| `pptx-zh` | PPT 演示文稿 | 制作专业的演示文稿、汇报材料 |
+| `xlsx-zh` | Excel 电子表格 | 数据处理、公式计算、财务模型 |
+| `pdf-zh` | PDF 文件处理 | 读取、合并、拆分、OCR 识别 |
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+### 设计开发
 
-#### 使用说明
+| 技能 | 说明 | 适用场景 |
+|------|------|----------|
+| `frontend-design-zh` | 前端界面设计 | 创建独特的 Web 界面、组件 |
+| `canvas-design-zh` | 画布视觉艺术 | 制作海报、艺术作品、设计稿 |
+| `algorithmic-art-zh` | 算法生成艺术 | 使用 p5.js 创建生成艺术 |
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+### 工具类
 
-#### 参与贡献
+| 技能 | 说明 | 适用场景 |
+|------|------|----------|
+| `code-assistant` | 代码助手 | 智能代码修改，提供方案选择 |
+| `skill-creator-zh` | 技能创建器 | 创建、测试、优化新技能 |
+| `find-skills-zh` | 查找技能 | 搜索和安装现有技能 |
+| `theme-factory-zh` | 主题工厂 | 为作品应用专业主题样式 |
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+## 安装使用
 
+### 方式一：直接复制
 
-#### 特技
+将技能文件夹复制到你的 skills 目录：
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+```bash
+# Claude Code / opencode
+~/.agents/skills/
+
+# 或指定目录
+/path/to/your/skills/
+```
+
+### 方式二：克隆仓库
+
+```bash
+git clone https://gitee.com/nicholas-super/skills.git
+cp -r skills/* ~/.agents/skills/
+```
+
+## 技能特点
+
+- **全中文界面**：所有提示、说明、输出均使用中文
+- **本土化设计**：适配中国常用格式（A4 纸张、中文排版等）
+- **智能交互**：代码修改提供方案选择，支持自动/手动运行
+- **易于扩展**：可根据需求自定义和创建新技能
+
+## 目录结构
+
+```
+skills/
+├── code-assistant/        # 代码助手
+├── docx-zh/              # Word 文档
+├── pptx-zh/              # PPT 演示
+├── xlsx-zh/              # Excel 表格
+├── pdf-zh/               # PDF 处理
+├── frontend-design-zh/   # 前端设计
+├── canvas-design-zh/     # 画布艺术
+├── algorithmic-art-zh/   # 算法艺术
+├── skill-creator-zh/     # 技能创建
+├── find-skills-zh/       # 查找技能
+├── theme-factory-zh/     # 主题工厂
+├── README.md             # 中文说明
+└── README.en.md          # English docs
+```
+
+## 贡献指南
+
+1. Fork 本仓库
+2. 新建 `feat_xxx` 分支
+3. 提交代码
+4. 新建 Pull Request
+
+## 许可证
+
+各技能遵循其原始许可证。
+
+## 相关链接
+
+- [Gitee 仓库](https://gitee.com/nicholas-super/skills)
+- [GitHub 仓库](https://github.com/zcccc-gif/skills)（自动同步）
+- [技能市场](https://skills.sh/)
+
+## 致谢
+
+感谢所有原版技能的开发者，本仓库在其基础上进行了中文本地化适配。
